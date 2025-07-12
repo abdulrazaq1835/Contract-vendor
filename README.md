@@ -1,12 +1,64 @@
-# React + Vite
+# 📝 Contract Vendor - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of the **Contract Vendor** web application. It allows users to create and manage contract records through a clean, responsive UI.
 
-Currently, two official plugins are available:
+Built using:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **React Router DOM**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- Modern, mobile-responsive UI
+- Multi-page navigation using React Router
+- Create new contracts using form input
+- Dummy contract data display
+- Organized folder and component structure
+
+---
+
+## ⚙️ Tech Stack
+
+- **React** – Frontend framework
+- **Vite** – Lightning-fast build tool
+- **Tailwind CSS** – Utility-first CSS
+- **React Router DOM** – Routing across pages
+
+---
+
+## 🔀 React Router DOM
+
+The app uses **React Router DOM v6+** for routing between pages:
+
+- `/` – Home Page  
+- `/new-contract` – Create New Contract  
+- `/contract/:id` – View specific contract (dynamic route)
+
+Defined inside `App.jsx` using `<Routes>` and `<Route>`.
+
+Also uses `useNavigate()` for redirecting after form submission.
+
+---
+
+## 🧠 React Hooks Used
+
+- `useState` – Manage form input and state
+- `useNavigate` – For routing programmatically
+- `useEffect` – (Ready for future API integration or side-effects)
+
+---
+
+## 🧪 Dummy Data
+
+Currently, the app uses **dummy contract data** in the frontend only.  
+No backend is connected yet — ideal for mockup and UI showcase.
+
+---
+
+## 📁 Project Structure
+
+
